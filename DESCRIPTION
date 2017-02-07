@@ -1,0 +1,10 @@
+Package: ksample
+Type: Package
+Title: K-sample tests
+Version: 1.0
+Date: 2013-04-23
+Author: R port by Shachar Kaufman, see documentation for original authors of specific test implementations.
+Maintainer: Shachar Kaufman <shachar.kaufman@math.tau.ac.il>
+Depends: Matrix, matlab, rARPACK
+Description: This package includes R ports of the Maximum Mean Discrepancy (MMD) two-sample test code of Gretton et al., and the Dynamic Slicing approach of Jiang et al.
+License: GPL-3

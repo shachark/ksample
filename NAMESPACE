@@ -1,0 +1,5 @@
+exportPattern("^mmd+", "^dyn+")
+useDynLib(ksample, R_C_dynslicing_1eqp, R_C_dynslicing_one, R_C_dynslicing_keqp, R_C_dynslicing_k)
+import(matlab)
+import(Matrix)
+import(rARPACK)
